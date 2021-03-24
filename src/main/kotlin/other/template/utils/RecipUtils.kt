@@ -1,16 +1,12 @@
 package other.template.utils
 
 import com.android.tools.idea.wizard.template.ModuleTemplateData
-import com.github.xyoye.template.listeners.MyProjectManagerListener
+import com.dett.mvptemplate.listeners.MyProjectManagerListener
 import com.intellij.openapi.roots.ModuleRootManager
 import com.intellij.psi.PsiDirectory
 import com.intellij.psi.PsiManager
 import org.jetbrains.kotlin.idea.util.projectStructure.allModules
 import org.jetbrains.kotlin.konan.file.File
-
-/**
- * Created by xyoye on 2021/1/17.
- */
 
 fun getModuleDir(moduleData: ModuleTemplateData): Pair<PsiDirectory?, PsiDirectory?> {
     val emptyPair = Pair<PsiDirectory?, PsiDirectory?>(null, null)

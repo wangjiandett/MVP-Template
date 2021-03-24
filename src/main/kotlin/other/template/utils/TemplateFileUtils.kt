@@ -4,10 +4,6 @@ import com.intellij.psi.PsiDirectory
 import com.intellij.psi.PsiFileFactory
 import org.jetbrains.kotlin.idea.KotlinLanguage
 
-/**
- * Created by xyoye on 2021/1/17.
- */
-
 fun String.save(srcDir: PsiDirectory, subDirPath: String, fileName: String) {
     try {
         val destDir = subDirPath.split(".").toDir(srcDir)

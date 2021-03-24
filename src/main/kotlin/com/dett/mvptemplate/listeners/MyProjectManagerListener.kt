@@ -1,6 +1,6 @@
-package com.github.xyoye.template.listeners
+package com.dett.mvptemplate.listeners
 
-import com.github.xyoye.template.services.MyProjectService
+import com.dett.mvptemplate.services.MyProjectService
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.project.ProjectManagerListener
 

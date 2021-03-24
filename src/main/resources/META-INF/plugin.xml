@@ -1,5 +1,5 @@
 <idea-plugin>
-    <id>com.github.dett.template</id>
+    <id>com.dett.mvptemplate</id>
     <name>MVPTemplate</name>
     <vendor>dett</vendor>
 
@@ -11,12 +11,12 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.xyoye.template.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.xyoye.template.services.MyProjectService"/>
+        <applicationService serviceImplementation="com.dett.mvptemplate.services.MyApplicationService"/>
+        <projectService serviceImplementation="com.dett.mvptemplate.services.MyProjectService"/>
     </extensions>
 
     <applicationListeners>
-        <listener class="com.github.xyoye.template.listeners.MyProjectManagerListener"
+        <listener class="com.dett.mvptemplate.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
 

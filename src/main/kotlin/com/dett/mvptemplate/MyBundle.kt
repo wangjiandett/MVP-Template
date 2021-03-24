@@ -1,4 +1,4 @@
-package com.github.xyoye.template
+package com.dett.mvptemplate
 
 import com.intellij.AbstractBundle
 import org.jetbrains.annotations.NonNls

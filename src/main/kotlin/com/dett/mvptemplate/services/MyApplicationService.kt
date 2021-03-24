@@ -1,6 +1,6 @@
-package com.github.xyoye.template.services
+package com.dett.mvptemplate.services
 
-import com.github.xyoye.template.MyBundle
+import com.dett.mvptemplate.MyBundle
 
 class MyApplicationService {
 
