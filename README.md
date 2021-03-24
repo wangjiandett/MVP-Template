@@ -4,7 +4,7 @@
 
 Dett MVP template，use for Android Studio4.1+，quickly generating Activity/Fragment、Model、View、Presenter，Bean，layout
 
-Witch based on <a href="https://github.com/wangjiandett/RxDemo">https://github.com/wangjiandett/RxDemo
+Witch based on <a href="https://github.com/wangjiandett/MVPDemo">https://github.com/wangjiandett/MVPDemo
 
 ## Build Plugin
 clone project > <kbd>Gradle</kbd> > <kbd>MVPTemplate/Tasks/intellij</kbd> > <kbd>buildPlugin</kbd> > build/libs/MVPTemplate-xx.jar
