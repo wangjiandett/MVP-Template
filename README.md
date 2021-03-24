@@ -3,7 +3,7 @@
 # MVPTemplate
 
 Dett MVP template，use for Android Studio 4.1+，quickly generating Activity/Fragment、Model、View、Presenter，Bean，layout
-android studio 4.0 or before visit old way https://github.com/wangjiandett/mvp-templates
+android studio 4.0 or before you can also use old way https://github.com/wangjiandett/mvp-templates
 
 Witch based on <a href="https://github.com/wangjiandett/MVPDemo">https://github.com/wangjiandett/MVPDemo
 
